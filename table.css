@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.table{
+    width: 50%;
+    min-width: 500px;
+}
+
+.add-wrapper{
+    width: 50%;
+    flex-direction: row;
+    /*margin: auto;*/
+}
+
+tr th {
+    padding: 0 10px;
+}
+
+tr td {
+    padding: 15px;
+}
+
+button{
+    border: none;
+    background: none;
+    margin: -5px;
+}
+
+
+
+.pencil{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 20%;
+    background: green;
+    padding: 5px;
+
+}
+
+.bin{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 20%;
+    background: red;
+    padding: 5px;
+}
+
+
+
+input{
+    width: 70%;
+    height: 70px;
+    min-width: 300px;
+    margin: 5px;
+
+}
+
+.buttons-wrapper{
+     padding: 10px;
+
+}
+
+
+.clean{
+    min-width: 150px;
+    width:36%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-right:10px ;
+}
+
+.add{
+    min-width: 150px;
+    width:36%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+img{
+    background: red;
+}
